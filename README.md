@@ -26,6 +26,14 @@ StartshipCenter (star_ships, name)
 
 `pip install colorama`
 
+5) Install app:
+
+`pip install .`
+
+6) Run app:
+
+`starship_app`
+
 
 ```python
 def main():

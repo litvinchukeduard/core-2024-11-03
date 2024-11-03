@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "starship_app"
+authors = [
+    {name = "Josiah Carberry", email = "josiah_carberry@brown.edu"},
+]
+description = "My package description"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "colorama==0.4.6",
+]
+dynamic = ["version"]
+
+[project.scripts]
+starship_app = "app.main:entry_point"
