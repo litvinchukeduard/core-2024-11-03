@@ -1,4 +1,5 @@
 from app.app_classes_module import *
+from functions.saving_functions import save_starship_to_file
 
 from colorama import Fore
 
@@ -10,6 +11,8 @@ def return_hello(name: str) -> str:
         - name (str): name os a user
     """
     return f"Hello, {name}!"
+
+# Hello from another branch
 
 
 
@@ -23,5 +26,8 @@ def entry_point():
             print("Hello")
         elif user_input == 'exit':
             print("Goodbye")
+            save_starship_to_file(starship, 'starship.pkl')
             break
 
+if __name__ == '__main__':
+    entry_point()
