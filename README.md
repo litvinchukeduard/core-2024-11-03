@@ -1,3 +1,18 @@
+## Project description
+
+Система для контролю над зоряними кораблями
+
+## Project Structure
+
+main.py - Main file
+app_classes_module/ - Module for app classes
+
+## Classes
+
+Starship (name, power, max_capacity)
+
+StartshipCenter (star_ships, name)
+
 
 ## Installing project
 
